@@ -67,6 +67,7 @@ class Scoring:
 
 
 def evaluate_pokemon(pkmn):
+    #TODO - inserir lógica aqui
     score = 0
     if pkmn.hp <= 0:
         return score
